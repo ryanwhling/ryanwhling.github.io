@@ -129,6 +129,12 @@ html {
     color: #8c363e;
 }
 
+hr{
+    background-color: darkgray;
+}
+
+
+
 /* Sidebar Menu */
 
 .menu .image {
@@ -150,10 +156,14 @@ html {
     margin-bottom: 0px;
 }
 
-.menu .author-content span {
+.menu .author-content a {
     font-size: 13px;
     font-style: italic;
     color: #fff;
+}
+
+.menu .author-content a:hover{
+    color: rgb(172, 168, 168);
 }
 
 .menu .social-network {
